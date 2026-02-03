@@ -25,7 +25,7 @@ padding-top: 30px;
 /*                                       Top Piece                                        */
 /**************************************************/
 
-#top {
+/* #top {
 background: url(img/logo.png) top right no-repeat; 
 font-size:11px;
 background-position: 10px 10px;
@@ -39,6 +39,20 @@ line-height: 28px;
 font-size: 24px;
 text-align: right;
 vertical-align: center;
+} */
+
+#top {
+  background: url(img/logo.png) no-repeat;
+  background-position: 10px 10px;
+
+  padding-left: 120px;  /* 👈 给 logo 留空间 */
+  padding-right: 20px;
+
+  min-height: 80px;     /* 👈 不用 height */
+  line-height: 40px;    /* 👈 垂直居中技巧 */
+
+  font-size: 24px;
+  text-align: right;
 }
 
 
